@@ -75,7 +75,19 @@ git log --reverse docs/CHANGELOG.md
 ### Partie 4 — Branches et fusions
 
 9. Quelles branches ont été fusionnées dans `main` ?  
+
+git branch -a --merged
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/feature/header
+  remotes/origin/feature/login
+  remotes/origin/hotfix/typo
+  remotes/origin/main
+
 10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ? 
+git branch -a --no-merged
+  remotes/origin/experiment/dark-mode
+car c'est une expérience
 
 ### Partie 5 — Analyse du contenu
 
