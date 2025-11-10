@@ -92,9 +92,12 @@ car c'est une expérience
 ### Partie 5 — Analyse du contenu
 
 11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.2` et quelle commande permet de le voir rapidement ?  
-12. Que contient la branche `feature/login` ?  
+12. Que contient la branche `feature/login` ?
+Le code pour se connecter au site  
 13. Dans quelle branche a été ajouté le code pour le **mode sombre** ?  
+experiment/dark-mode
 14. Quelle bonne pratique de sécurité est évoquée dans les commits du fichier `config.js` ?
+L'utilisation de variables d'environnement
 
 ### Partie 6 — Réflexion
 
