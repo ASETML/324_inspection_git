@@ -102,6 +102,10 @@ L'utilisation de variables d'environnement
 ### Partie 6 — Réflexion
 
 15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
+Afin de pouvoir facilement revenir à une version fonctionnelle en cas de problème.
+Afin de pouvoir savoir quand une version est stable et la déployer automatiquement
 16. Que peut-on déduire du style de travail de l'équipe à partir de cet historique GIT ?  
+git log --graph
+Petite équipe, seul Romain fait des commits
 
 Bonne chance, et surtout... **ne vous perdez pas dans le log !** 😉
